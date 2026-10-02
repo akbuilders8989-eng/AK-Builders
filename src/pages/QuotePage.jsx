@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SEO from '../components/SEO'
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
@@ -121,7 +122,13 @@ export default function QuotePage() {
   };
 
   return (
-    <div className="bg-[#F5F0E6] min-h-screen pt-28 pb-20 lg:pt-36 lg:pb-32 text-[#252321]">
+    <>
+      <SEO
+        title="Get a Construction Quote | AK BUILDERS Chennai and Tiruvallur"
+        description="Request a construction quote from AK BUILDERS for residential construction, commercial construction, architecture, renovation, and remodeling projects in Chennai and Tiruvallur, Tamil Nadu."
+        path="/quote"
+      />
+      <div className="bg-[#F5F0E6] min-h-screen pt-28 pb-20 lg:pt-36 lg:pb-32 text-[#252321]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
@@ -611,6 +618,6 @@ export default function QuotePage() {
 
       </div>
     </div>
+    </>
   );
 }
-

@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO'
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Scale, ArrowRight, Mail, Phone, MapPin, CheckCircle2 } from 'lucide-react';
@@ -183,6 +184,12 @@ const sections = [
 
 export default function TermsPage() {
   return (
+    <>
+      <SEO
+        title="Terms of Service | AK BUILDERS"
+        description="Read the AK BUILDERS Terms of Service covering website use, construction services, project estimates, client responsibilities, payments, and service terms."
+        path="/terms"
+      />
     <div className="bg-[#F5F0E6] min-h-screen pt-28 pb-20 lg:pt-36 lg:pb-32 text-[#252321]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -289,5 +296,7 @@ export default function TermsPage() {
 
       </div>
     </div>
+    </>
   );
 }
+

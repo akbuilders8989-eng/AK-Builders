@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const FounderSection = () => {
   return (
-    <section className="relative bg-[#F5F0E6] py-24 lg:py-32 overflow-hidden">
+    <section className="relative mt-0 bg-[#F5F0E6] pt-0 pb-24 lg:py-32 overflow-hidden">
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <motion.div

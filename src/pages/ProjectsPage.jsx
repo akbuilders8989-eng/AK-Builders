@@ -1,3 +1,4 @@
+import SEO from '../components/SEO'
 import Projects from '../components/Projects'
 import FeatureCard from '../components/FeatureCard'
 import Testimonials from '../components/Testimonials'
@@ -5,6 +6,11 @@ import Testimonials from '../components/Testimonials'
 function ProjectsPage() {
   return (
     <>
+      <SEO
+        title="Construction Projects in Chennai & Tiruvallur | AK BUILDERS"
+        description="Explore AK BUILDERS residential construction projects, on-site walkthroughs, key handovers, and completed homes across Chennai and Tiruvallur, Tamil Nadu."
+        path="/projects"
+      />
       <Projects />
       <FeatureCard
         title={"Residential Homes &\nCustom Living"}
