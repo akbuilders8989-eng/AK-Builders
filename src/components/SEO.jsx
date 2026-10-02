@@ -67,7 +67,7 @@ function SEO({
       logo: `${SITE_URL}/images/ak-logo.png`,
       image: `${SITE_URL}/images/ak-logo.png`,
       description,
-      email: 'akbuilders8989@gmail.com',
+      email: 'hello@ak-builder.in',
       telephone: ['+91 63802 24982', '+91 99409 01290'],
       address: {
         '@type': 'PostalAddress',

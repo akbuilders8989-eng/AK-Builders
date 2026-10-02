@@ -95,7 +95,7 @@ export default function QuotePage() {
     submission.append('_captcha', 'false');
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/akbuilders8989@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/hello@ak-builder.in', {
         method: 'POST',
         body: submission,
         headers: {
@@ -602,7 +602,7 @@ export default function QuotePage() {
                 <div className="pt-4 border-t border-[#E5DAC8] text-xs space-y-2 text-[#77736C]">
                   <p className="flex items-center gap-2">
                     <Mail className="w-3.5 h-3.5 text-[#C7A96B]" />
-                    <span>akbuilders8989@gmail.com</span>
+                    <span>hello@ak-builder.in</span>
                   </p>
                   <p className="flex items-center gap-2">
                     <Phone className="w-3.5 h-3.5 text-[#C7A96B]" />
